@@ -23,16 +23,14 @@ To use this script:
 ==============================
 First of all download the zip, and run it locally. You will understand what is going on.
 The input params have to be defined in  specific way for eg. a textbox is defined as:
-{
+
     type : 'textbox',
     id : 'frmTxtBox',
     keyName : 'TextBoxKey',
-    label : 'This is the label for a TextBox Element',
-    
-    name : 'TextBoxName',
-    
+    label : 'This is the label for a TextBox Element',    
+    name : 'TextBoxName',    
     defaultVal : 'Default Value'
-}
+
 
 For the different input elements, you can check the format-specification from the js file.
 
